@@ -1,0 +1,7 @@
+{
+    "Lua.diagnostics.globals": [
+        "d1",
+        "l2",
+        "l3"
+    ]
+}

@@ -1,0 +1,166 @@
+<mxfile host="65bd71144e">
+    <diagram id="mYkAxV4oHs_E_SDtUhND" name="第 1 页">
+        <mxGraphModel dx="831" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="260.16666666666674" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="240" y="260"/>
+                            <mxPoint x="240" y="395"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="reload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="main直接作为系统入口运行reload" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="210" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="50" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="390" y="50"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.59;entryY=-0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="10" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="950" y="-30" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="600" y="-20"/>
+                            <mxPoint x="950" y="-20"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="debug" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="20" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="为reload提供debug方法" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="20" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="410.16666666666674" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="70" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="test" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="可直接加载测试方法" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="290" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="为其提供测试方法" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="420" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.7;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="21" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="160.16666666666674" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="414" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="driver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="750" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="peripheral" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="为驱动层提供设备标识" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="120" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="190" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="460" y="260"/>
+                            <mxPoint x="460" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="bios" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="为引导层提供检测依据" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="190" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="提供外设访问接口" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="120" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.01;entryY=0.127;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="35" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="710" y="50" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="700" y="50"/>
+                            <mxPoint x="700" y="138"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="35" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1070" y="260" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1040" y="50"/>
+                            <mxPoint x="1070" y="50"/>
+                            <mxPoint x="1070" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="library" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="20" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="对外设接口的方法实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="10" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="通过后允许加载外设" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="220" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.556;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="27">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="737" y="160" as="sourcePoint"/>
+                        <mxPoint x="790" y="200" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="为其提供测试方法" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="320" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.577;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="47" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="class" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="允许将外设封装成类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="420" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="也可以为其实现或者提供方法" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="340" width="170" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
