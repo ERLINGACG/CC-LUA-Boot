@@ -1,5 +1,5 @@
-Peripheral1='electric_motor_0'
-local ife0
+local Peripheral1='electric_motor_0'       --- @Addressmode_Name
+local ife0       ='back'                   --- @Addressmode_Side
 
 return {
     ife0=ife0,

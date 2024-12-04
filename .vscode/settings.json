@@ -2,6 +2,7 @@
     "Lua.diagnostics.globals": [
         "d1",
         "l2",
-        "l3"
+        "l3",
+        "peripheral"
     ]
 }

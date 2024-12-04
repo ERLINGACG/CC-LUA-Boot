@@ -2,6 +2,9 @@
 function Main()
     shell.run("reload")
 end
+function Test()
+    shell.run("test/2")
+end
 
 
 Main()
