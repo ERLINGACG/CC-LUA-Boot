@@ -16,11 +16,16 @@ local t2=require("library/Imp1")
 
 --- @Test
 local t3=require("bios/bios")
+local t4=require("debug/debug2")
 
 
 --- @diagnostic disable-next-line: missing-parameter
-local C3=peripheral.getName(t2.Driver_ife0())
-local C4=peripheral.getMethods(C3) 
-for index, value in pairs(C4) do
-    print(index, value)
-end
+-- local C3=peripheral.getName(t2.Driver_ife0())
+-- local C4=peripheral.getMethods(C3) 
+-- for index, value in pairs(C4) do
+--     print(index, value)
+-- end
+
+--- @debug
+-- t4.getplist()
+t4.getfuncname()
