@@ -17,7 +17,7 @@ RSC2:FIND()
 function Debug()
     local centX,centY,centZ=-203,110,-115
     -- local goalX,goalY,goalZ=Rad:GetPlayers(40)
-    for index, value in pairs(coordinate.getPlayers(50)) do
+    for index, value in pairs(coordinate.getMonster(50)) do
         local goalX,goalY,goalZ=value.x,value.y,value.z
         local deltaX,deltaY,deltaZ=goalX-centX,goalY-centY-1,goalZ-centZ
 
