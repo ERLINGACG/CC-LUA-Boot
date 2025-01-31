@@ -11,9 +11,11 @@ UAV_Eng:FIND()
 
 
 function Scanning()
+    
     local My_Pos=UAV_Eng:GetShipPos()
     local My_Attitude=UAV_Eng:GetRotation()
     local UAV_Eng_ID=UAV_Eng:GetShipID()
+    print("UAV_Eng_ID:",UAV_Eng_ID)
     function T2()
         local ag=My_Attitude.yaw*-1
         if ag<0 then
@@ -74,8 +76,8 @@ function Scanning()
             -- Roll_Control()
             UAV_Eng:ApplyRotDependentTorque(0,-1*delta_Yaw*10000,0)
             UAV_Eng:ApplyRotDependentTorque(0,0,delta_Pitch*10000)
-            if Euclidean_Distance>20 then
-                UAV_Eng:ApplyRotDependentForce(-500000,0,0)
+            if Euclidean_Distance>15 then
+                UAV_Eng:ApplyRotDependentForce(-700000,0,0)
             end
             
         end

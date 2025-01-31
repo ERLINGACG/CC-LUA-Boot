@@ -21,11 +21,11 @@ function Scanning()
         end
         return ag
     end
-    
+    print("UAV_Eng_ID:",UAV_Eng_ID)
     local My_Pos_X=My_Pos.x
     local My_Pos_Y=My_Pos.y
     local My_Pos_Z=My_Pos.z
-    local Father_UAV_ID=62    -- 父级无人机ID
+    local Father_UAV_ID=61    -- 父级无人机ID
     for key, value in pairs(coordinate.getShips(250)) do
         if value.id==Father_UAV_ID then
             local Father_Pos_X=value.x
