@@ -20,6 +20,7 @@ ecu:FIND()
 gpu:CreateRootWindow(1,1,320,192)
 MainWindows={}
 MainWindows_Left_mainF=true -- 左面板的主界面
+MainWindows_Right_mainF=true -- 右面板的主界面
 Module_Condition_Left={ -- 初始化左面板模块的条件
     MENU=false,
     DADI=false,
@@ -107,7 +108,6 @@ function Event_Loop()
     
     Return()
     Goto_Left()
-    Goto_Left()
     print(e,p,x,y,Module_Condition_Left.MENU)
     os.sleep(0.1)
 end
@@ -119,7 +119,7 @@ function MainWindows:MainWindows_Left()
     Window1=UILib.CreatWindow(RootWindows,5,30,155,160)
     UILib.SHOW(Window1,gpu.ColorRGB.white)
     function R1()
-        
+        -- 空函数
     end
     UILib.Button(
         Window1,130,1,25,15,
@@ -588,7 +588,7 @@ function MainWindows:MainWindows_Left()
         false,
         Module_Condition_Left,
         Module_Function)
-
+ 
     UILib.SYNC(Window1)
     gpu:SYNC_W()
     gpu:SYNC()
@@ -672,5 +672,5 @@ while true do
         main
         
     )
-    os.sleep(0.001)
+    os.sleep(0.001)   -- 避免Event_Loop长时间抢占资源导致无法退出程序
 end

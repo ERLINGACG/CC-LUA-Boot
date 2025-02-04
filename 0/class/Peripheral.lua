@@ -50,5 +50,9 @@ end
 function PERIPHERAL:GETPERIPHERAL()       -- 获取外设
     return self.Peripheral
 end
+--- @ClassFunction
+function PERIPHERAL:GETPERIPHERALID()   -- 获取外设名称
+    return self.ID
+end
 
 return PERIPHERAL
